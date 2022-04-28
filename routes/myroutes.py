@@ -1,5 +1,5 @@
-from config import app
 import random
+from config import app
 
 @app.get('/message')
 def greetnow():
