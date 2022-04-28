@@ -1,6 +1,6 @@
-from flask import Flask
+from config import app
+import routes
 
-app=Flask(__name__)
 
 @app.route('/')
 def greet():
