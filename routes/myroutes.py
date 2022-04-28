@@ -7,4 +7,5 @@ def greetnow():
 
 @app.get('/number')
 def num():
-    return random.randint(0,9)
+    num=random.randint(0,9)
+    print(f'Random num {num}')
