@@ -8,4 +8,4 @@ def greetnow():
 @app.get('/number')
 def num():
     num=random.randint(0,9)
-    print(f'Random num {num}')
+    return f"Random num {num}"
